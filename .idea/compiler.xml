@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="SameDomainSSO" />
+        <module name="SameParentDomainSSO" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="SameDomainSSO" target="1.7" />
+      <module name="SameParentDomainSSO" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

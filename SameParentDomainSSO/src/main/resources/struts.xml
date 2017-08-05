@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+    <package name="sso" namespace="/sso" extends="struts-default">
+        <action name="doLogin" class="sso.x.com.SSOAction" method="doLogin">
+            <result name="success" type="redirect">${gotoUrl}</result>
+            <result name="error">/login.jsp</result>
+        </action>
+        <action name="checkCookie" class="sso.x.com.SSOAction" method="checkCookie">
+        </action>
+    </package>
+    <package name="site1" namespace="/site1" extends="struts-default">
+        <action name="main" class="site1.x.com.Site1Action" method="main">
+            <result name="success">/site1.jsp</result>
+            <result name="error">/login.jsp</result>
+        </action>
+    </package>
+    <package name="site2" namespace="/site2" extends="struts-default">
+        <action name="main" class="site2.x.com.Site2Action" method="main">
+            <result name="success">/site2.jsp</result>
+            <result name="error">/login.jsp</result>
+        </action>
+    </package>
+</struts>

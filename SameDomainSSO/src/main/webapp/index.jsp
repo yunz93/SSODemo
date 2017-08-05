@@ -11,7 +11,7 @@
     <title>登录</title>
 </head>
 <body>
-<center>
+<div style="text-align: center;">
     <h1>请登录</h1>
     <form action="/sso/doLogin" method="post">
         <input type="hidden" name="gotoUrl" value="${gotoUrl}"/>
@@ -19,6 +19,6 @@
         <span>密    码：</span><input type="password" name="password"/>
         <input type="submit">
     </form>
-</center>
+</div>
 </body>
 </html>

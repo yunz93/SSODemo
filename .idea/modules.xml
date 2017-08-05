@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MySSO.iml" filepath="$PROJECT_DIR$/MySSO.iml" />
       <module fileurl="file://$PROJECT_DIR$/SameDomainSSO/SameDomainSSO.iml" filepath="$PROJECT_DIR$/SameDomainSSO/SameDomainSSO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SameParentDomainSSO/SameParentDomainSSO.iml" filepath="$PROJECT_DIR$/SameParentDomainSSO/SameParentDomainSSO.iml" />
     </modules>
   </component>
 </project>

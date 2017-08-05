@@ -11,6 +11,8 @@
     <title>欢迎访问Demo1！</title>
 </head>
 <body>
-    欢迎访问Demo1主页！
+    <div style="text-align: center;">
+        <h1>欢迎访问Demo1主页！</h1>
+    </div>
 </body>
 </html>
