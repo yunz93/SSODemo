@@ -1,6 +1,6 @@
-#实现简单单点登录系统
+# 实现简单单点登录系统
 
-##SameDomainSSO 
+## SameDomainSSO 
 同域名子系统单点登录
 
 ## SameParentDomainSSO
